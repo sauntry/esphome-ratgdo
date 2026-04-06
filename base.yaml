@@ -1,4 +1,8 @@
 ---
+substitutions:
+  repo_url: github://ratgdo/esphome-ratgdo
+  repo_ref: main
+
 esphome:
   min_version: 2026.2.0
 
