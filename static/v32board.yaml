@@ -32,11 +32,7 @@ dashboard_import:
   package_import_url:  ${repo_url}/v32board.yaml@${repo_ref}
 
 packages:
-  remote_package:
-    url: ${repo_url}
-    ref: ${repo_ref}
-    files: [base.yaml]
-    refresh: 1s
+  remote_package: ${repo_url}/base.yaml@${repo_ref}
 
 switch:
   - platform: ratgdo
