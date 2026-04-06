@@ -3,10 +3,7 @@ esphome:
   min_version: 2026.2.0
 
 external_components:
-  - source:
-      type: git
-      url: ${repo_url}
-      ref: ${repo_ref}
+  - source: ${repo_url}@${repo_ref}
     refresh: 1s
   # - source:
   #     type: local
