@@ -33,6 +33,7 @@ dashboard_import:
 
 packages:
   remote_package: ${repo_url}/base.yaml@${repo_ref}
+  refresh: 1s
 
 switch:
   - platform: ratgdo
