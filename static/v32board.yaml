@@ -29,7 +29,7 @@ esp32:
     type: esp-idf
 
 dashboard_import:
-  package_import_url: ${repo_url}@${repo_ref}
+  package_import_url: ${repo_url}v32board.yaml@${repo_ref}
 
 packages:
   remote_package:
